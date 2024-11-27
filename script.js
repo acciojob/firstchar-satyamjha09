@@ -1,14 +1,15 @@
 function firstChar(text) {
 
-   str = str.trimStart();
+    // Trim any leading spaces from the input string
+    text = text.trimStart();
     
     // If the string is empty after trimming, return an empty string
-    if (str === '') {
+    if (text === '') {
         return '';
     }
     
     // Return the first character
-    return str[0];
+    return text[0];
   
 }
 
