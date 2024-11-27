@@ -1,6 +1,6 @@
 function firstChar(text) {
 
-	console.log(string.trim().slice(0,1))
+   return string.trim().slice(0,1)
   
 }
 
@@ -8,3 +8,4 @@ function firstChar(text) {
 //Uncomment the following line to show the prompt popup
 //const text = prompt("Enter text:");
 alert(firstChar(text));
+ 
