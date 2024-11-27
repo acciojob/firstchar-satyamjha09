@@ -1,5 +1,7 @@
 function firstChar(text) {
-  // your code here
+
+	console.log(string.trim().slice(0,1))
+  
 }
 
 // Do not change the code below
