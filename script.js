@@ -1,6 +1,14 @@
 function firstChar(text) {
 
-   return string.trim().slice(0,1)
+   str = str.trimStart();
+    
+    // If the string is empty after trimming, return an empty string
+    if (str === '') {
+        return '';
+    }
+    
+    // Return the first character
+    return str[0];
   
 }
 
